@@ -30,6 +30,7 @@ public class WelcomerTest {
 	public void welcomerSaysSomething(){
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
+	//add hunter
 	@Test
 	public void testGetHunterReply() {
    		Welcomer welcomer = new Welcomer();
